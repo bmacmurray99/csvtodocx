@@ -1,0 +1,28 @@
+{
+  "name": "csvtodocx",
+  "version": "1.0.0",
+  "description": "A package to easily convert csv data into .docx templates",
+  "main": "csvtodocx.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: No Test Specified\\\" && exit 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmacmurray99/csvtodocx/"
+  },
+  "keywords": [
+    "csv",
+    "docx",
+    "templates",
+    "convert",
+    "csv",
+    "to",
+    "docx"
+  ],
+  "author": "Bryan Mac Murray",
+  "license": "GNU General Public License v3.0",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "docx-templates": "^3.1.1"
+  }
+}
