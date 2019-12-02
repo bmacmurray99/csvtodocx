@@ -10,4 +10,4 @@ This package uses [docx-templates](https://github.com/guigrpa/docx-templates) an
 [creating templates](https://github.com/guigrpa/docx-templates#writing-templates) uses the same 
 syntax in the .docx file. 
 
-
+All templates are passed the variable ```jsonData``` so any templates you make must reference this variable. 
