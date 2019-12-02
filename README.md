@@ -7,7 +7,5 @@ To use this package on the command line, use the following syntax:
 csvtodocx --input=<INPUT FILE> --output=<OUTPUT FILE> --template=<TEMPLATE FILE>
 ```
 This package uses [docx-templates](https://github.com/guigrpa/docx-templates) and 
-[creating templates](https://github.com/guigrpa/docx-templates#writing-templates) uses the same 
-syntax in the .docx file. 
-
+[creating templates](https://github.com/guigrpa/docx-templates#writing-templates) require using the syntax in the linked documentation. 
 All templates are passed the variable ```jsonData``` so any templates you make must reference this variable. 
