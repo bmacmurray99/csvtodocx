@@ -7,10 +7,6 @@ var outputFile = yargs.output;
 var templateFile =yargs.template;
 var jObj;
 
-
-
- 
-
 var jsonData = csv({
 		
 					})
