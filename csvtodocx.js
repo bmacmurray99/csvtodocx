@@ -1,13 +1,14 @@
-
+#! /usr/bin/env node
 const csv = require("csvtojson");
 const docTemplates = require("docx-templates");
 const yargs = require("yargs").argv;
 var inputFile = yargs.input;
 var outputFile = yargs.output;
 var templateFile =yargs.template;
+
 var jsonObj;
 
-var regex = /\s|\-|\%|\&|/g
+var regex = /\s|\-|\%|\&/g
   
 
 var jsonData = csv()
