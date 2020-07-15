@@ -30,9 +30,6 @@ var jsonData = csv()
 		return preparedHeadJson
 	});
 
- 
-
-
  docTemplates({template:templateFile,output:outputFile,
 	data:{jsonData}},
 	(err)=>{console.log(err)});
